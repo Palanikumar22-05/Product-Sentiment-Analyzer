@@ -18,7 +18,8 @@ This project is intended for educational purposes and personal use. It is **not 
 
 ## Installation
 
-### Backend
+ 
+Backend 
 
 ```bash
 cd backend
@@ -28,7 +29,10 @@ venv\Scripts\activate      # Windows
 
 # or
 source venv/bin/activate   # Linux / Mac
+
+
 Frontend
+
 cd frontend
 npm install
 npm start
