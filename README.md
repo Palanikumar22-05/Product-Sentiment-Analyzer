@@ -26,9 +26,10 @@ cd backend
 python -m venv venv
 venv\Scripts\activate      # Windows
 
-
 # or
 source venv/bin/activate   # Linux / Mac
+pip install -r requirements.txt
+python app.py
 
 
 Frontend
@@ -60,5 +61,3 @@ No commercial usage: Do not use this project to mass scrape or sell data.
 
 Responsible usage: Use the project responsibly and avoid making too many automated requests.
 
-pip install -r requirements.txt
-python app.py
