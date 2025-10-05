@@ -24,8 +24,37 @@ This project is intended for educational purposes and personal use. It is **not 
 cd backend
 python -m venv venv
 venv\Scripts\activate      # Windows
+
+
 # or
 source venv/bin/activate   # Linux / Mac
+Frontend
+cd frontend
+npm install
+npm start
+
+
+The frontend runs on http://localhost:3000 by default.
+
+The backend runs on http://127.0.0.1:5000.
+
+Usage
+
+Enter a product name in the search box.
+
+Fetch reviews from Amazon, Flipkart, or both.
+
+View sentiment analysis and recommendation summary.
+
+Check the pie chart for overall sentiment distribution.
+
+Notes / Legal
+
+Respect Website Terms: This project scrapes data for personal or educational use only. Users must comply with the Terms of Service of Amazon and Flipkart.
+
+No commercial usage: Do not use this project to mass scrape or sell data.
+
+Responsible usage: Use the project responsibly and avoid making too many automated requests.
 
 pip install -r requirements.txt
 python app.py
