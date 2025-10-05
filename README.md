@@ -1,12 +1,12 @@
-# Product Sentiment Analyzer
+ Product Sentiment Analyzer
 
-**Product Sentiment Analyzer** is a web application that scrapes product reviews from **Amazon** and **Flipkart**, analyzes their sentiment using **TextBlob**, and visualizes the results in a **React** dashboard with pie charts.  
+Product Sentiment Analyzer is a web application that scrapes product reviews from Amazon and Flipkart, analyzes their sentiment using TextBlob, and visualizes the results in a React dashboard with pie charts.  
 
-This project is intended for educational purposes and personal use. It is **not meant for commercial use** or violating any website’s Terms of Service.
+This project is intended for educational purposes and personal use. It is not meant for commercial use or violating any website’s Terms of Service.
 
 ---
 
-## Features
+Features
 
 - Scrapes product reviews from Amazon and Flipkart.
 - Performs sentiment analysis (positive, neutral, negative).
@@ -16,7 +16,7 @@ This project is intended for educational purposes and personal use. It is **not 
 
 ---
 
-## Installation
+Installation
 
  
 Backend 
