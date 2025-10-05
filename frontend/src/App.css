@@ -1,0 +1,105 @@
+/* frontend/src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header-icon {
+  font-size: 28px;
+  color: #007bff;
+}
+
+.search-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-container input {
+  width: 350px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.search-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #0056b3;
+}
+
+.summary-box {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 300px;
+  text-align: left;
+}
+
+.chart-container {
+  margin: 20px 0;
+}
+
+.reviews-container {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.review-card {
+  background: white;
+  padding: 15px;
+  margin: 12px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review-card.positive {
+  border-left: 6px solid #28a745;
+}
+
+.review-card.negative {
+  border-left: 6px solid #dc3545;
+}
+
+.review-card.neutral {
+  border-left: 6px solid #ffc107;
+}
+
+.review-card h4 {
+  margin: 0 0 5px 0;
+}
+
+.review-card .source {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: gray;
+}
+
+
